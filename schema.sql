@@ -14,7 +14,5 @@ create table vocabulary
   question              text                                not null,
   answer                text                                not null,
   language              varchar(255)                        not null,
-  phase                 smallint                            not null default 0,
-  create_time           timestamp                           NOT NULL DEFAULT current_timestamp,
-  update_time           timestamp                           NOT NULL DEFAULT current_timestamp
+  phase                 smallint                            not null default 0
 );
